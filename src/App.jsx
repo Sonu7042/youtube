@@ -1,15 +1,15 @@
-import './App.css'
-import Card from './components/Card'
-// import Navbar from './components/Navbar'
+import Navbar from './components/Navbar'
+import FetchVideo from './components/FetchVideo'
 
 
 function App() {
   return (
     <>
-    {/* <Navbar/> */}
-    <div className='container'></div>
-    <Card/>
-    
+    <Navbar/>
+    <div className='container border-0'>
+      <FetchVideo/>
+    </div>
+   
     </>
   )
 }
